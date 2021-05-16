@@ -14,7 +14,7 @@ pipeline{
                         message "do you want to deploy?"
                         ok "Yes!"
                         parameters{
-                            string(name:'OUTPUT', defaultValue:'', description:"Enter a text")
+                            string(name:'OUTPUT', defaultValue:'1.4.0', description:"Enter a text")
                         }
                     }
                     steps{
